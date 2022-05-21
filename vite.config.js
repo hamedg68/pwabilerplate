@@ -4,17 +4,17 @@ import { VitePWA } from "vite-plugin-pwa";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base : "/pwabilerplate/",
   plugins: [
     vue(),
     VitePWA({
       mode: "development",
-      base: "/",
       srcDir: "src",
       filename: "sw.ts",
       includeAssets: ["/favicon.png"],
       strategies: "injectManifest",
       manifest: {
-        name: "Test Project",
+        name: "hamed test###",
         short_name: "Test",
         theme_color: "#ffffff",
         start_url: "/",

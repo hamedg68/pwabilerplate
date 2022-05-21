@@ -1,6 +1,7 @@
 <template>
   <ReloadPWA />
   <img alt="Vue logo" src="./assets/logo.png" />
+  <p>my change</p>
   <HelloWorld msg="Hello Vue 3 + Vite" />
 </template>
 

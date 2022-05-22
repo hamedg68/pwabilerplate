@@ -1,7 +1,7 @@
 <template>
   <ReloadPWA />
-  <div w="full" flex="~" justify="center">
-    <img alt="Vue logo" src="./assets/logo.png" />
+  <div flex="~" justify="center">
+    <img  alt="Vue logo" src="./assets/logo.png" />
   </div>
   <p>this app is pwa with vue and vite</p>
 

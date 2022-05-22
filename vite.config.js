@@ -28,7 +28,7 @@ export default defineConfig({
         name: "hamed gorji",
         short_name: "hamedg",
         theme_color: "#FF5733",
-        start_url: "/",
+        start_url: "/pwabilerplate/",
         display: "standalone",
         background_color: "#FFC300",
         icons: [

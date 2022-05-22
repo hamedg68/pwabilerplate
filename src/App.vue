@@ -1,15 +1,18 @@
 <template>
   <ReloadPWA />
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <p>my change</p>
-
+  <div flex="~" justify="center">
+     <img  alt="Vue logo" src="./assets/logo.png" />
+  </div>
+  <p>this app is pwa with vue and vite</p>
+  
+  
   <a-modal
     v-model:visible="visible"
     title="Basic Modal"
     @ok="handleOk"
     @cancel="visible = false"
   >
-    <h4>would you like to install this app in your screen phone?</h4>
+    <h4>would you like to install this app on your screen phone?</h4>
   </a-modal>
 </template>
 
